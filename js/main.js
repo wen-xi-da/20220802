@@ -21,7 +21,7 @@ function show() {
     var nowDate = new Date();
     var h = nowDate.getHours();
     var m = nowDate.getMinutes();
-    if (h == 5 && m == 20) {
+    if (h == 16 && m == 55) {
         flag = true;
         document.getElementById('bgm').play();
         $('.out').fadeOut(5000, function () {
